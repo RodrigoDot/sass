@@ -1,3 +1,10 @@
+.loud, .angry {
+  font-weight: bold; }
 
+.quiet {
+  font-weight: lighter; }
+
+.angry {
+  color: red; }
 
 /*# sourceMappingURL=heranca.css.map */

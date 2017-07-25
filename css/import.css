@@ -46,6 +46,15 @@ nav {
   font-style: italic;
   font-size: 2em; }
 
+.loud, .angry {
+  font-weight: bold; }
+
+.quiet {
+  font-weight: lighter; }
+
+.angry {
+  color: red; }
+
 input {
   width: 300px;
   -moz-border-radius: 10px;

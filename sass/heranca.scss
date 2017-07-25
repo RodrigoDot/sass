@@ -1,0 +1,12 @@
+.loud {
+    font-weight: bold;
+}
+
+.quiet {
+    font-weight: lighter;
+}
+
+.angry { //angry recebe o bold de loud e acrescenta mais personalizacao a classe
+    @extend .loud;
+    color: red;
+}
