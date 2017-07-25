@@ -1,0 +1,49 @@
+.vermelho {
+  color: red; }
+
+.azul {
+  color: blue; }
+
+.verde {
+  color: green; }
+
+.amarelo {
+  color: yellow; }
+
+.big {
+  font-size: 3em; }
+
+.error {
+  color: #ffffff;
+  background-color: #abcdef;
+  width: 300px;
+  border: 1px solid #f00; }
+
+.GRS {
+  font-size: 5em;
+  color: red;
+  font-style: oblique;
+  border: 1px solid #abcdef; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+nav li {
+  display: inline-block; }
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+
+nav {
+  border-width: 1px;
+  border-color: #ccc;
+  border-style: solid;
+  border-left: 0px;
+  border-right: 0px;
+  font-family: "times bew roman", Times, serif;
+  font-style: italic;
+  font-size: 2em; }
+
+/*# sourceMappingURL=import.css.map */
