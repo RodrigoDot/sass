@@ -1,0 +1,22 @@
+$highlight-color: #abcdef;
+$width: 300px;
+$border: 1px solid #f00;
+$base-color: #ffffff;
+$background-color: #abcdef;
+
+$g: 5em;
+$r: red;
+$s: oblique;
+
+.error {
+    color: $base-color;
+    background-color: $background-color;
+    width: $width;
+    border: $border;
+}
+
+.GRS {
+	font-size: $g;
+    color: $r;
+    font-style: $s;
+}
