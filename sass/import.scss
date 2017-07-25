@@ -1,4 +1,21 @@
+@import "mixin.scss";
 @import "style.scss";
 @import "style2.scss";
 @import "variaveis.scss";
 @import "aninhamento.scss";
+
+$button-width: 200px;
+
+input {
+    width: $width;
+    @include bordas-redondas;
+}
+
+a {
+    @include link-colors(blue, red, green);
+}
+
+.a-default {
+    @include default-link-colors(blue);
+}
+

@@ -46,4 +46,24 @@ nav {
   font-style: italic;
   font-size: 2em; }
 
+input {
+  width: 300px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+
+a {
+  color: blue; }
+  a:hover {
+    color: red; }
+  a:visited {
+    color: green; }
+
+.a-default {
+  color: blue; }
+  .a-default:hover {
+    color: blue; }
+  .a-default:visited {
+    color: blue; }
+
 /*# sourceMappingURL=import.css.map */

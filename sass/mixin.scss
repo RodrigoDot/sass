@@ -1,0 +1,17 @@
+@mixin bordas-redondas { //mixin simples
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+@mixin link-colors($normal, $hover, $visited) { //mixin com parametros
+    color: $normal;
+    &:hover { color: $hover; }
+    &:visited { color: $visited; }
+}
+
+@mixin default-link-colors($normal, $hover: $normal, $visited: $normal) { //mixin com parametros e padrao
+    color: $normal;
+    &:hover { color: $hover; }
+    &:visited { color: $visited; }
+}
