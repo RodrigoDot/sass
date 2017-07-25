@@ -1,7 +1,8 @@
 sass -v >>> mostra a versao do sass
 ruby -v >> mostra versao do ruby
 
-gem sass install >>> instala o sass depois que tiver o ruby instalado
-sass nome_do_arquivo >>> compila o arquivo para css
-sass --watch diretorio_origem:diretorio_destino >>> monitora o diretorio origem e compila automaticamente o arquivo assim que acontece alguma alteracao
-sass-convert nome_do_arquivo.css nome_do_arquivo.scss >>> converte um arquivo css em um arquivo scss
+gem sass install                                        >>> instala o sass depois que tiver o ruby instalado
+sass nome_do_arquivo                                    >>> compila o arquivo para css
+sass nome_do_arquivo --style compressed                 >>> compila o arquivo para css minificado
+sass --watch diretorio_origem:diretorio_destino         >>> monitora o diretorio origem e compila automaticamente o arquivo assim que acontece alguma alteracao
+sass-convert nome_do_arquivo.css nome_do_arquivo.scss   >>> converte um arquivo css em um arquivo scss
